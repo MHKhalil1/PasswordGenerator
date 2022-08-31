@@ -18,6 +18,14 @@ function generatePassword() {
     if (userInput === null) {
       return
     }
+    var passwordLength = parseInt(userInput)
+    if (isNaN(passwordLength)) {
+      window.alert("Invalid Number")
+    } else if (passwordLength < 8 || passwordLength > 128) {
+      window.alert("Password length should be between 8-128 characters.")
+    } else {
+      break
+    }
   }
 }
 // Write password to the #password input
