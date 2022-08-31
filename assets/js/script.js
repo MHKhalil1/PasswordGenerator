@@ -12,6 +12,13 @@ function getRandomItem(list) {
   return list[randomInt(list.length)]
 }
 function generatePassword() {
+  while (true) {
+    var userInput = window.prompt("How long would you like your password to be")
+
+    if (userInput === null) {
+      return
+    }
+  }
 }
 // Write password to the #password input
 function writePassword() {
