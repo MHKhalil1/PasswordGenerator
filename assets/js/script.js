@@ -63,6 +63,12 @@ if (characterList.length === 0) {
 
 var generatePassword = ""
 
+for (var i = 0; i < passwordLength; i++) {
+  var randomList = getRandomItem(characterList)
+  var randomCharacters = getRandomItem(randomList)
+  generatePassword += randomCharacters
+}
+
 return generatePassword
 }
 

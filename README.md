@@ -8,7 +8,7 @@
  - I added a function allowing the user to confirm uppercase letters, uppercase letters, numbers, and symbols.
  - I added a function now allowing the password to become only of what the user picks.
  - I added a function allowing the User to return to the default page after generating a password.
- - 
+ - I added a function to allow the entire operation to work using a "for" statement.
 
 ### Screenshot
 
