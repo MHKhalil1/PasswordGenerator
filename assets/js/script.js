@@ -1,6 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-function randomInt (min,max) {
+function randomInt (min, max) {
   if (!max) {
     max = min
     min = 0
@@ -26,7 +26,7 @@ function generatePassword() {
     } else {
       break
     }
-  }
+  
 }
 
 var uppercase = window.confirm("Do you want uppercase letters?")
@@ -61,14 +61,18 @@ if (characterList.length === 0) {
   characterList.push(lowercaseList)
 }
 
+var generatePassword = ""
+
+return generatePassword
+}
 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
+  if (password) {
     passwordText.value = password;
-  
+  }
 }
 
 // Add event listener to generate button

@@ -6,6 +6,8 @@
  - I applied a window prompt function causing the "Generate Password" button to ask how long the user would like the password.
  - I added window alerts allowing the user to understand why the action didn't work as expected.
  - I added a function allowing the user to confirm uppercase letters, uppercase letters, numbers, and symbols.
+ - I added a function now allowing the password to become only of what the user picks.
+ - I added a function allowing the User to return to the default page after generating a password.
  - 
 
 ### Screenshot
