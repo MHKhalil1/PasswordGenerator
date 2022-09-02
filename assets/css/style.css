@@ -29,7 +29,7 @@ header {
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/*Everything contained within the card section is for the purpose of designing and adjusting the size of the section meant for the password*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -96,7 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/*This allows the text to be styled within the center of the card to present the password*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +117,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/*The media allows for the webpage to adjust to other screens*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;

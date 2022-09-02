@@ -9,9 +9,10 @@
  - I added a function now allowing the password to become only of what the user picks.
  - I added a function allowing the User to return to the default page after generating a password.
  - I added a function to allow the entire operation to work using a "for" statement.
- - 
-
+ - I added descriptive comments in order to assist anyone examining code.
+ 
 ### Screenshot
 ![This is a screenshot of the password generator](./assets/images/Password%20Gen.png)
+
 #### URL
 https://mhkhalil1.github.io/PasswordGenerator/
